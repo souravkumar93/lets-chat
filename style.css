@@ -1,0 +1,52 @@
+
+.chat-tab{
+    height: 300px;
+    border: 1px solid #000;
+    width: 30%;
+}
+.tab-header{
+  height: 30px;
+  background: grey;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.chat-box{
+  overflow: auto;
+  max-height: 200px;
+}
+.chat-input{
+  width: 80%;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-center{
+  align-items: center;
+}
+
+.f-center{
+  justify-content: center
+}
+
+.f-start{
+  justify-content: flex-start;
+}
+
+.f-space-between{
+  justify-content: space-between;
+}
+
+.f-space-around{
+  justify-content: space-between;
+}
+
+.messages{
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: space-between
+}
